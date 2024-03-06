@@ -23,9 +23,11 @@ for(let i = 0; i < n; i++){
         //stampare nella pagina la parola "FizzBuzz" al posto dei numeri, se i numeri sono sia multipli di 3 sia multipli di 5
         // - dichiaro una variabile alla quale assegno il valore di li all'interno della ulBox
         const liCell = document.createElement("li")
-        // assegno un innerhtml "FizzBuzz" a questa variabile
+        // - aggiungo una classe alla variabile liCell per modificarne lo stile
+        liCell.classList.add("bg_red")
+        // - assegno un innerhtml "FizzBuzz" a questa variabile
         liCell.innerHTML = "FizzBuzz"
-        //inserisco questa variabile nel DOM appendendola alla variabile ulBox
+        // - inserisco questa variabile nel DOM appendendola alla variabile ulBox
         ulBox.append(liCell)
     }else if(module3 == 0){
         //stampare in console la parola "Fizz" al posto dei numeri, se i numeri sono multipli di 3
@@ -33,9 +35,11 @@ for(let i = 0; i < n; i++){
         //stampare nella pagina la parola "Fizz" al posto dei numeri multipli di 3 
         // - dichiaro una variabile alla quale assegno il valore di li all'interno della ulBox
         const liCell = document.createElement("li")
-        // assegno un innerhtml "Fizz" a questa variabile
+        // - aggiungo una classe alla variabile liCell per modificarne lo stile
+        liCell.classList.add("bg_green")
+        // - assegno un innerhtml "Fizz" a questa variabile
         liCell.innerHTML = "Fizz"
-        //inserisco questa variabile nel DOM appendendola alla variabile ulBox
+        // - inserisco questa variabile nel DOM appendendola alla variabile ulBox
         ulBox.append(liCell)
     }else if(module5 === 0){
         //stampare in console la parola "Buzz" al posto dei numeri, se i numeri sono multipli di 5
@@ -43,9 +47,11 @@ for(let i = 0; i < n; i++){
         //stampare nella pagina la parola "Buzz" al posto dei numeri multipli di 5 
         // - dichiaro una variabile alla quale assegno il valore di li all'interno della ulBox
         const liCell = document.createElement("li")
-        // assegno un innerhtml "Buzz" a questa variabile
+        // - aggiungo una classe alla variabile liCell per modificarne lo stile
+        liCell.classList.add("bg_yellow")
+        // - assegno un innerhtml "Buzz" a questa variabile
         liCell.innerHTML = "Buzz"
-        //inserisco questa variabile nel DOM appendendola alla variabile ulBox
+        // - inserisco questa variabile nel DOM appendendola alla variabile ulBox
         ulBox.append(liCell)
     }else{
         //stampare in console i numeri che non sono né multipli di 3, né multipli di 5
@@ -53,9 +59,11 @@ for(let i = 0; i < n; i++){
         //stampare nella pagina il numero che normalmente non è né multiplo di 3 né multiplo di 5 
         // - dichiaro una variabile alla quale assegno il valore di li all'interno della ulBox
         const liCell = document.createElement("li")
-        // assegno un innerhtml con contenuta la variabile num a questa stessa variabile
+        // - aggiungo una classe alla variabile liCell per modificarne lo stile
+        liCell.classList.add("bg_blue")
+        // - assegno un innerhtml con contenuta la variabile num a questa stessa variabile
         liCell.innerHTML = num
-        //inserisco questa variabile nel DOM appendendola alla variabile ulBox
+        // - inserisco questa variabile nel DOM appendendola alla variabile ulBox
         ulBox.append(liCell)
     }
     
