@@ -24,7 +24,7 @@ for(let i = 0; i < n; i++){
         // - dichiaro una variabile alla quale assegno il valore di li all'interno della ulBox
         const liCell = document.createElement("li")
         // - aggiungo una classe alla variabile liCell per modificarne lo stile
-        liCell.classList.add("bg_red")
+        liCell.classList.add("bg_red", "cell_layout")
         // - assegno un innerhtml "FizzBuzz" a questa variabile
         liCell.innerHTML = "FizzBuzz"
         // - inserisco questa variabile nel DOM appendendola alla variabile ulBox
@@ -36,7 +36,7 @@ for(let i = 0; i < n; i++){
         // - dichiaro una variabile alla quale assegno il valore di li all'interno della ulBox
         const liCell = document.createElement("li")
         // - aggiungo una classe alla variabile liCell per modificarne lo stile
-        liCell.classList.add("bg_green")
+        liCell.classList.add("bg_green", "cell_layout")
         // - assegno un innerhtml "Fizz" a questa variabile
         liCell.innerHTML = "Fizz"
         // - inserisco questa variabile nel DOM appendendola alla variabile ulBox
@@ -48,7 +48,7 @@ for(let i = 0; i < n; i++){
         // - dichiaro una variabile alla quale assegno il valore di li all'interno della ulBox
         const liCell = document.createElement("li")
         // - aggiungo una classe alla variabile liCell per modificarne lo stile
-        liCell.classList.add("bg_yellow")
+        liCell.classList.add("bg_yellow", "cell_layout")
         // - assegno un innerhtml "Buzz" a questa variabile
         liCell.innerHTML = "Buzz"
         // - inserisco questa variabile nel DOM appendendola alla variabile ulBox
@@ -60,7 +60,7 @@ for(let i = 0; i < n; i++){
         // - dichiaro una variabile alla quale assegno il valore di li all'interno della ulBox
         const liCell = document.createElement("li")
         // - aggiungo una classe alla variabile liCell per modificarne lo stile
-        liCell.classList.add("bg_blue")
+        liCell.classList.add("bg_blue", "cell_layout")
         // - assegno un innerhtml con contenuta la variabile num a questa stessa variabile
         liCell.innerHTML = num
         // - inserisco questa variabile nel DOM appendendola alla variabile ulBox

@@ -1,0 +1,62 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* LAYOUT */
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.main_title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.cell_layout{
+    aspect-ratio: 1;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display_grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+/* STYLE */
+
+body{
+    background-color: rgb(8, 59, 76);
+}
+
+.bg_blue{
+    background-color: rgb(19, 137, 178);
+}
+
+.bg_green{
+    background-color: rgb(12, 214, 161);
+}
+
+.bg_yellow{
+    background-color: rgb(255, 209, 102);
+}
+
+.bg_red{
+    background-color: rgb(240, 70, 111);
+}
