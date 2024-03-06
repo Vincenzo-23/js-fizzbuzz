@@ -36,7 +36,7 @@ ul, ol, li{
 
 .display_grid{
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(7, 1fr);
 }
 
 /* STYLE */
